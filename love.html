@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For My Favorite Person 💕</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ffd6e8, #ffeef5);
+      font-family: "Quicksand", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      max-width: 700px;
+      width: 100%;
+      border-radius: 24px;
+      padding: 32px 28px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      position: relative;
+      animation: fadeIn 1.2s ease;
+    }
+
+    .card::before,
+    .card::after {
+      content: "💗";
+      position: absolute;
+      font-size: 24px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .card::before {
+      top: -12px;
+      left: 20px;
+    }
+
+    .card::after {
+      bottom: -12px;
+      right: 20px;
+      animation-delay: 1.5s;
+    }
+
+    h1 {
+      font-family: "Pacifico", cursive;
+      text-align: center;
+      color: #ff4f8b;
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+    }
+
+    .letter {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #444;
+      text-align: left;
+      white-space: pre-line;
+    }
+
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      font-weight: 600;
+      color: #ff4f8b;
+      font-size: 1.1rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>To My Favorite Girl 💖</h1>
+
+    <div class="letter">
+hai babe, i just want you to know how grateful I am…  
+im feel really grateful, because out of all the choices in this world, you chose me to be your boyfriend, and even more than that, you chose me as your favorite place to come back to.  
+
+that’s not something small for me, itu merupakan suatu kehormatan besar yang akan saya jaga setiap hari.  
+you know sometimes i still can’t believe someone as precious as you decided to stay with me.  
+
+dan jujur, saya berharap saya bukan cuma jadi tempat favoritmu untuk senang-senang, tapi juga tempat paling aman buat kamu cerita disaat kamu lelah.  
+i want to be the person you can run to when your mind feels too heavy. tempat kamu bisa ngomel, nangis, marah, atau cuma butuh didengerin without being judged, without being rushed.  
+
+i want you to know this too…  love you in every moment.  
+not only when things are easy, not only when we’re happy, but also when days get messy and feelings get complicated.  saya mencintaimu di versi terbaikmu, dan saya juga belajar mencintaimu di saat kamu rapuh.  
+
+and i know i still have a lot of flaws.  
+saya orangnya kurang peka, kurang cepat nangkap suasana hatimu, dan mungkin tanpa sadar bikin kamu ngerasa gak sepenuhnya dimengerti.  
+for that, I’m really sorry. saya bukan tidak peduli tapi I’m still learning how to love you better.  
+
+so please know this…  
+i may not be perfect, but my intention is always pure:  
+to love you sincerely, to grow with you, and to become someone who deserves the place you’ve given in your heart.  
+
+thank you for choosing me,  
+thank you for trusting me,  
+and thank you for making me feel like I finally belong somewhere with you.
+    </div>
+
+    <div class="footer">
+      Always yours, ❤️
+    </div>
+  </div>
+
+</body>
+</html>
